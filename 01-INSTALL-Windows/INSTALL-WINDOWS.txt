@@ -1,0 +1,40 @@
+Betwise Terminal — Windows install
+================================
+Version: 0.1.0
+Product: Betwise Terminal   Identifier: com.betwise.terminal
+API baked into this build: https://staging.iccpanel.com/api
+Portal slug: betwise
+Windows 10 or 11 only.
+
+Files in this folder
+--------------------
+- Betwise Terminal_0.1.0_x64-setup.exe   (64-bit installer — run this one on 64-bit Windows)
+- Betwise Terminal_0.1.0_x86-setup.exe   (32-bit installer — for old / low-end 32-bit laptops)
+- betwise-terminal.exe                   (64-bit portable — run directly, no install)
+- betwise-terminal-32bit.exe             (32-bit portable — run directly, no install)
+
+Which one?
+----------
+Open Settings -> System -> About -> "System type".
+- "64-bit operating system" -> use the x64 files.
+- "32-bit operating system" -> use the x86 / 32bit files.
+
+The x86 installer carries the full WebView2 runtime (about 300 MB), so it installs
+without internet. The portable .exe files need WebView2 already on the PC
+(it is built into Windows 11 and most updated Windows 10 PCs).
+
+Install
+-------
+1. Uninstall any old Betting Terminal / Betwise Terminal first.
+2. Run the setup file for your Windows type (see "Which one?").
+3. SmartScreen may warn once (unsigned build): More info -> Run anyway.
+4. Install the printer driver (or Generic / Text Only) and plug in devices.
+5. Open the app -> Ctrl+Shift+D -> Print test / Bill test / Scan test.
+
+Config
+------
+config.json is built into the app (printer / bill acceptor = auto).
+Optional: put a config.json next to the portable .exe to override settings.
+Change AdminPassword from the sample value before live use.
+
+See 04-DOCS/HARDWARE.md for printer and bill acceptor notes.

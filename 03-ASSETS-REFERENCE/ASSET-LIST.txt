@@ -1,0 +1,21 @@
+Betwise — images in this package
+
+1) App images used by the running program (do not rename these files):
+   02-SOURCE/public/brand/betwise-logo.png
+   02-SOURCE/public/assets/games/SPRIBE/   (13 game card images: *-HQ.jpg, AVIATOR-HERO.jpg)
+   02-SOURCE/public/assets/banner/         (8 promo banners: promo-*.jpg)
+
+   Exact game names in the app (keep this spelling):
+   Aviator, Pilot Chicken, Mines, Plinko, Dice, Goal, Hi-Lo, Keno, Balloon, Mini Roulette, Hotline, Keno 80, Trader
+
+   Promo banners in the app (8):
+   Aviator, Pilot Chicken, Mines, Balloon, Plinko, Dice, Goal, Hotline
+
+2) Reference images only (not loaded by the app):
+   03-ASSETS-REFERENCE/logo/           brand logo copy
+   03-ASSETS-REFERENCE/lobby-reference/  full lobby page, 13-card sheet and 8-banner board
+                                         for this brand (Navy + green)
+
+Note: the lobby-reference pictures show the new themed look discussed for this brand.
+The live app today loads the files under 02-SOURCE/public/assets/. If the new look is
+approved, replace files in public/assets keeping the same file names, then rebuild.

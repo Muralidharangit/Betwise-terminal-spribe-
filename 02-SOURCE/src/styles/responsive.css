@@ -1,0 +1,136 @@
+/* ==========================================================================
+   WINBET RESPONSIVE STYLES — any device
+   ========================================================================== */
+
+@media (max-width: 1400px) {
+  .games-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 1200px) {
+  .games-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 991px) {
+  .custom-navbar,
+  .smart-pc-header,
+  .smart-pc-header-bar,
+  .winbet-topbar {
+    padding: 8px 16px !important;
+  }
+
+  .jackpot-inner-row {
+    padding: 14px 18px;
+    gap: 14px;
+  }
+
+  .jackpot-ticker-val {
+    font-size: 1.85rem;
+  }
+
+  .jp-deco-left,
+  .jp-deco-right {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .category-nav-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-box-station {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .games-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px;
+  }
+
+  /* Header chips — prevent wrap collision */
+  .smart-pc-header-bar .header-center-status,
+  .winbet-topbar .station-status-pill {
+    max-width: 42vw;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-navbar,
+  .smart-pc-header,
+  .smart-pc-header-bar,
+  .winbet-topbar {
+    padding: 6px 12px !important;
+  }
+
+  .brand-logo-img,
+  .header-logo {
+    height: 52px;
+    max-width: 190px;
+  }
+
+  .brand-logo-img.logo-sm {
+    height: 44px;
+    max-width: 165px;
+  }
+
+  .brand-logo-img.logo-lg {
+    height: 76px;
+    max-width: 290px;
+  }
+
+  .brand-name,
+  .brand-logo-text {
+    font-size: 1.35rem;
+  }
+
+  .crown-icon {
+    font-size: 1.25rem;
+  }
+
+  .balance-chip {
+    padding: 4px 10px;
+    gap: 8px;
+  }
+
+  .balance-chip .val {
+    font-size: 1.05rem;
+  }
+
+  .jackpot-inner-row {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px;
+  }
+
+  .jackpot-cta-wrap {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .jp-deco-center-top {
+    display: none;
+  }
+
+  .cashout-trigger-btn span {
+    display: none;
+  }
+}
+
+/* Touch-friendly tap targets on small screens */
+@media (max-width: 900px) and (pointer: coarse) {
+  .btn-winbet-modal-primary,
+  .btn-winbet-modal-secondary,
+  .insert-browse,
+  .game-launch-exit-btn,
+  .card-play-btn,
+  .btn-spribe-poster-action {
+    min-height: 48px;
+  }
+}

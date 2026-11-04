@@ -1,0 +1,33 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default capability for the Kiosk terminal main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "allow-get-device-fingerprint",
+    "allow-get-operating-system",
+    "allow-hardware-start",
+    "allow-hardware-status",
+    "allow-hardware-diagnose",
+    "allow-get-kiosk-hw-config",
+    "allow-print-cashout-ticket",
+    "allow-print-test-ticket",
+    "allow-enter-kiosk-mode",
+    "allow-exit-kiosk-mode",
+    "allow-set-shop-available-coins",
+    "allow-frontend-log",
+    "allow-hardware-reconnect-missing",
+    "core:window:allow-set-fullscreen",
+    "core:window:allow-set-decorations",
+    "core:window:allow-set-always-on-top",
+    "core:window:allow-set-resizable",
+    "core:window:allow-set-minimizable",
+    "core:window:allow-set-closable",
+    "core:window:allow-set-size",
+    "core:window:allow-center",
+    "core:window:allow-set-focus"
+  ]
+}

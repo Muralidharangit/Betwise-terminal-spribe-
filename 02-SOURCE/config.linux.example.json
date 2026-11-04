@@ -1,0 +1,16 @@
+{
+  "API_URL": "http://127.0.0.1:8000/api",
+  "Terminal_ID": "TERMINAL-001",
+  "Printer_Name": "auto",
+  "Printer_Device": "auto",
+  "BillAcceptor_Port": "auto",
+  "BillAcceptor_Type": "auto",
+  "CoinAcceptor_Port": "",
+  "AdminPassword": "admin123",
+  "Currency": "NAD",
+  "CurrencySymbol": "N$",
+  "SessionTimeoutSeconds": 120,
+  "DepositRetryIntervalMs": 5000,
+  "DepositMaxRetries": 12,
+  "KioskLockdown": false
+}

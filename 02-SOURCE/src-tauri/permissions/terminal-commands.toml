@@ -1,0 +1,65 @@
+[[permission]]
+identifier = "allow-get-device-fingerprint"
+description = "Enables the get_device_fingerprint command for Kiosk registration."
+commands.allow = ["get_device_fingerprint"]
+
+[[permission]]
+identifier = "allow-get-operating-system"
+description = "Enables the get_operating_system command for Kiosk registration."
+commands.allow = ["get_operating_system"]
+
+[[permission]]
+identifier = "allow-hardware-start"
+description = "Start bill acceptor and printer hardware."
+commands.allow = ["hardware_start"]
+
+[[permission]]
+identifier = "allow-hardware-status"
+description = "Read hardware connection status."
+commands.allow = ["hardware_status"]
+
+[[permission]]
+identifier = "allow-hardware-diagnose"
+description = "Run new-device hardware and permission checklist."
+commands.allow = ["hardware_diagnose"]
+
+[[permission]]
+identifier = "allow-get-kiosk-hw-config"
+description = "Read local kiosk hardware config.json."
+commands.allow = ["get_kiosk_hw_config"]
+
+[[permission]]
+identifier = "allow-print-cashout-ticket"
+description = "Print cash-out ticket on Epson ESC/POS printer."
+commands.allow = ["print_cashout_ticket"]
+
+[[permission]]
+identifier = "allow-print-test-ticket"
+description = "Print a hardware test slip (not a cash-out)."
+commands.allow = ["print_test_ticket"]
+
+[[permission]]
+identifier = "allow-enter-kiosk-mode"
+description = "Enter fullscreen kiosk lockdown."
+commands.allow = ["enter_kiosk_mode"]
+
+[[permission]]
+identifier = "allow-exit-kiosk-mode"
+description = "Exit fullscreen kiosk with admin password."
+commands.allow = ["exit_kiosk_mode"]
+
+[[permission]]
+identifier = "allow-set-shop-available-coins"
+description = "Set available coins for bill acceptor."
+commands.allow = ["set_shop_available_coins"]
+
+
+[[permission]]
+identifier = "allow-frontend-log"
+description = "Write UI scanner / ticket events into the app log."
+commands.allow = ["frontend_log"]
+
+[[permission]]
+identifier = "allow-hardware-reconnect-missing"
+description = "Reconnect bill acceptor / printer after a USB replug."
+commands.allow = ["hardware_reconnect_missing"]

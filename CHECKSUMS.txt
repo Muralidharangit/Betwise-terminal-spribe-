@@ -1,0 +1,4 @@
+d9a7df382a5ff314856f0b840adfcf61edde42e824aafd9f9e67b0e6d7fe7305  01-INSTALL-Windows/Betwise Terminal_0.1.0_x64-setup.exe  (107176343 bytes)
+ee3787592c7ebb4c0f37ac53dc3e7365c1a3dc57c55324a5e0548f04f3c8d255  01-INSTALL-Windows/Betwise Terminal_0.1.0_x86-setup.exe  (299956346 bytes)
+f33181c71be3a3909c737dec8825799d9463be792ceea33ed4ea3d2fd3dae13d  01-INSTALL-Windows/betwise-terminal-32bit.exe  (110717952 bytes)
+715125135a7859e980b002b30fdd87443035ca69c4355a4c647c3bc0c983acaa  01-INSTALL-Windows/betwise-terminal.exe  (112425984 bytes)

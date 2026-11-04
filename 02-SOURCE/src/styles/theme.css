@@ -1,0 +1,52 @@
+/* ==========================================================================
+   BETWISE TERMINAL — theme tokens (navy + brand green / blue)
+   ========================================================================== */
+
+:root {
+  --bg-deep: #000d1f;
+  --bg-card: #0a1e3a;
+  --bg-card-glass: rgba(10, 30, 58, 0.92);
+  --card-bg-gradient: linear-gradient(180deg, #0c2748 0%, #061830 100%);
+  --inner-panel-bg: rgba(6, 24, 48, 0.9);
+
+  --card-border: #1a5080;
+  --card-border-glow: rgba(28, 176, 61, 0.4);
+  --card-inner-glow: rgba(28, 176, 61, 0.12);
+  --border-purple-glow: #1cb03d;
+  --border-purple-light: #22c55e;
+
+  /* Primary actions = Betwise green */
+  --purple-btn-start: #22c55e;
+  --purple-btn-mid: #1cb03d;
+  --purple-btn-end: #159632;
+  --purple-btn-gradient: linear-gradient(180deg, #22c55e 0%, #1cb03d 50%, #159632 100%);
+  --purple-btn-hover: linear-gradient(180deg, #34d399 0%, #1cb03d 50%, #15803d 100%);
+
+  --cancel-btn-bg: #061830;
+  --cancel-btn-border: #1a5080;
+
+  /* Brand accents → green (website CTA) */
+  --gold-accent: #1cb03d;
+  --gold-primary: #1cb03d;
+  --gold-light: #86efac;
+  --gold-glow: rgba(28, 176, 61, 0.45);
+  --gold-gradient: linear-gradient(180deg, #86efac 0%, #1cb03d 50%, #15803d 100%);
+
+  --neon-green: #22c55e;
+  --neon-green-glow: rgba(34, 197, 94, 0.55);
+
+  --text-light: #f0f7ff;
+  --text-dim: #8ba3c0;
+  --text-muted-purple: #6b8299;
+  --input-border: #1a5080;
+  --input-bg: #000d1f;
+
+  --navbar-bg: linear-gradient(90deg, #000d1f 0%, #0a1e3a 50%, #000d1f 100%);
+  --tile-radius: 18px;
+  --card-radius: 20px;
+
+  /* Explicit Betwise brand */
+  --betwise-blue: #1e5bb8;
+  --betwise-green: #1cb03d;
+  --betwise-navy: #001428;
+}

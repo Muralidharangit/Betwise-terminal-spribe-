@@ -1,0 +1,21 @@
+# Built installers (over GitHub's 100 MB limit) — share them outside git.
+*.exe
+*.deb
+*.msi
+01-INSTALL-Windows/*.exe
+05-INSTALL-ALL/
+
+# Build output and dependencies
+node_modules/
+dist/
+src-tauri/target/
+02-SOURCE/releases/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+*.log
+.DS_Store
